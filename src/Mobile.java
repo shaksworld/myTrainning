@@ -4,13 +4,17 @@ public class Mobile {
     private String model;
     private String operatingSystem;
     private int cost;
+    private int numbers;
 
     //the class constructor
-    Mobile(String man, String m, String o, int c){
-        this.manufactural = man;
-        this.model = m;
-        this.operatingSystem = o;
-        this.cost = c;
+
+
+    public Mobile(String manufactural, String model, String operatingSystem, int cost) {
+        this.manufactural = manufactural;
+        this.model = model;
+        this.operatingSystem = operatingSystem;
+        this.cost = cost;
+        this.numbers = 20;
     }
 
     //Method to get access Model property of Object
@@ -26,6 +30,10 @@ public class Mobile {
     public int getCost(){
         return this.cost;
     }
-//gggggg
+
+    public int getNumbers() {
+        return numbers;
+    }
+    //gggggg
 
 }
