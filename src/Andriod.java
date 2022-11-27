@@ -7,6 +7,10 @@ public class Andriod extends Mobile{
 //    public String getModel(){
 //        return "This is Android Mobile- " + getModel();
 //    }
+    //Method to get access Model property of Object
+//    public String getModel(){
+//        return "This is Android Mobile- " + getModel();
+//    }
     public void forAndriod (String m){
         System.out.println("This is Android Mobile- " + getModel());
     }
